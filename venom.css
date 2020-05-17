@@ -1,0 +1,62 @@
+body{
+    background-color: beige
+}
+
+
+
+
+div {
+    
+    text-align:center;
+    
+}
+
+#venom-pic{
+    display:block;
+    margin:auto;
+}
+
+#log-in-form{
+    background-color: black;
+    color: white;
+    width:50%;
+    margin:auto;
+    
+}
+
+#head1 {
+    background-color:white;
+    font-family: fantasy;
+    color: cadetblue;
+    width:800px;
+    margin:auto;
+}
+
+#head2 {
+    background-color:white;
+    font-family:inherit;
+    line-height:200%;
+    color:black;
+    width:800px;
+    margin:auto;
+
+}
+
+.pss{
+    background-color:firebrick;
+    font-family: sans-serif;
+    text-align: center;
+    color:blanchedalmond;
+    
+    border: 3px solid black;
+    border-radius:5px;
+    padding: 13px 13px 13px 20px;
+    width:800px;
+    margin: auto;
+  
+}
+
+a:hover{
+    background: red;
+    color:white
+}
