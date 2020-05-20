@@ -10,35 +10,55 @@
     <link href="https://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" />
 </head>
 <body>
-    
+
     <script type="text/javascript">
-    document.bgColor="orange";
-    alert("Welcome to the Venom's House!")
+        document.bgColor="orange";
+        alert("Welcome to the Venom's House!")
     </script>
-    
+
     <h1 id="head1"> Venom is the Best!!!</h1>
     <h2 id="head1"> Venom is the Best!!!</h2>
     <h3 id="head1"> Venom is the Best!!!</h3>
     <h2 id="head2"> Venom is the Best!!!</h2>
     <h1 id="head2"> Venom is the Best!!!</h1>
-    
+
     <hr width="90%">
-   
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#note-button").click(function() {
+        alert("Value: "+ $("#sometext").val());
+        });
+
+        });
+    </script>
+    <input type="text" id="sometext" value="">
+    <button id="note-button" type="note-button"> note</button>
+
     <p class="note" id="venom-best"> Venom is </br>and will be </br>the BEST. </p>
-    
     <a id="venom-pic" href="https://en.wikipedia.org/wiki/Venom_(Marvel_Comics_character)"><img id="venom-pic" src="Venom.jpg" height="240px" width="150px" alt="Image not found"></a>
 
     <div id="log-in-form">
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+            $("#submit-button").click(function() {
+            alert("email: "+ $("#email").val() + "--------password: "+ $("#password").val());
+            });
+
+            });
+        </script>
+
         <form action="" method="">
             <label for "email"> email: </label>
-            <input type="text" name="email" placeholder="venom@email.com" required>
+            <input type="text" id="email" name="email" placeholder="venom@email.com" required>
             <div>
                 <label for "password"> password: </label>
-                <input type="text" name="password" placeholder="venom" required>
+                <input type="text" id="password" name="password" placeholder="venom" required>
             </div>
             <div>
-                <button type="submit"> submit</button>
-            
+                <button id="submit-button" type="submit"> submit</button>
+
             </div>
         </form>
     </div>
