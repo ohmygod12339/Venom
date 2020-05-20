@@ -24,7 +24,7 @@ div {
     
 }
 
-#head1 {
+.shout2 {
     background-color:white;
     font-family: fantasy;
     color: cadetblue;
@@ -32,7 +32,7 @@ div {
     margin:auto;
 }
 
-#head2 {
+.shout1 {
     background-color:white;
     font-family:inherit;
     line-height:200%;
