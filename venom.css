@@ -1,9 +1,19 @@
 body{
-    background-color: beige
+    background-color:#DBEAF3;
 }
 
 
+#summon{
+    display:block;
+    margin:auto;
+}
 
+#note-summon{
+    text-align: center;
+    font-size: 50px;
+    display:block;
+    margin:auto;
+}
 
 div {
     
@@ -11,7 +21,8 @@ div {
     
 }
 
-#venom-pic{
+
+.pic{
     display:block;
     margin:auto;
 }
@@ -24,19 +35,28 @@ div {
     
 }
 
-.shout2 {
-    background-color:white;
+.shout3 {
+    background-color:brown;
+    background-origin: content-box;
     font-family: fantasy;
-    color: cadetblue;
+    color:cornsilk;
+    width:800px;
+    margin:auto;
+}
+
+.shout2 {
+    background-color:floralwhite;
+    font-family:fantasy;
+    color:darkslateblue;
     width:800px;
     margin:auto;
 }
 
 .shout1 {
-    background-color:white;
-    font-family:inherit;
+    background-color:black;
+    font-family:fantasy;
     line-height:200%;
-    color:black;
+    color:azure;
     width:800px;
     margin:auto;
 

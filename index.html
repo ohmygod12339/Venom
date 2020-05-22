@@ -14,37 +14,51 @@
 
     <script type="text/javascript">
         document.bgColor="orange";
-        alert("Welcome to the Venom's House!")
+        alert("Welcome to the Birthday Party for Bin Bin!")
     </script>
 
-    <h1 id="statement1" class="shout1"> Venom is the Best!!!</h1>
-    <h2 id="statement2" class="shout1"> Venom is the Best!!!</h2>
-    <h3 id="statement3" class="shout2"> Venom is the Best!!!</h3>
-    <h2 id="statement4" class="shout2"> Venom is the Best!!!</h2>
-    <h1 id="statement5" class="shout2"> Venom is the Best!!!</h1>
+    <h5 id="statement1" class="shout1"> Venom is the Best!!!</h1>
+    <h4 id="statement2" class="shout1"> Venom is the Best!!!</h2>
+    <h3 id="statement3" class="shout2"> BinBin is the Best!!!</h3>
+    <h2 id="statement4" class="shout2"> BinBin & Venom are the Best!!!</h2>
+    <h1 id="statementHB" class="shout3"> Happy 2020 Birthday to BinBin!!!</h1>
 
-    <hr width="90%">
+
+    <hr width="100%">
+    
+    
+    <img class="pic" id="venom-summon" src="Venom_summon.jpg" height="720px" width="750px" alt="Image not found">
+    
+    <p class="note-summon" id="note-summon">HERE I COME!!!!!</p>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#venom-summon").hide(); 
+        $("#note-summon").hide(); 
+        });
+    </script>
+    
+    <button id="summon" type="submit"> SUMMON THE VENOM to be your company!</button>
 
     <script type="text/javascript">
         $(document).ready(function() {
-        $("#note-button").click(function() {
-        alert("Value: "+ $("#sometext").val());
+        $("#summon").click(function() {
+            $("#venom-summon").show();
+            $("#note-summon").show();
         });
-
         });
     </script>
-    <input id="sometext" type="text"  value="">
-    <button id="note-button" type="submit"> note</button>
-
-    <p class="note" id="venom-best"> Venom is </br>and will be </br>the BEST. </p>
-    <a id="venom-pic" href="https://en.wikipedia.org/wiki/Venom_(Marvel_Comics_character)"><img id="venom-pic" src="Venom.jpg" height="240px" width="150px" alt="Image not found"></a>
+    
+    
+    <p class="note" id="venom-best"> To Bin: </br> It is developed for your 2020 Birthday this website.</br> 2020, which is the year of happiness, diligent, and possibility.</br> Get ready for your next stage of life, hold on tight your instrument, the brush.</br> Paint, till you can no longer. </br> Walk the way you have chosen to, like Venom. </br> Be yourself, like Venom has always been.</br> Take the responsibility, </br> and SCREAM!!!!!!!!!!!!!!!!! </br> Happy Birthday from Victor & your family</p>
+    <a id="venom-pic" href="https://en.wikipedia.org/wiki/Venom_(Marvel_Comics_character)"><img id="venom-pic" class="pic" display=none src="Venom.jpg" height="360px" width="250px" alt="Image not found"></a>
 
     <div id="log-in-form">
 
         <script type="text/javascript">
             $(document).ready(function() {
             $("#submit-button").click(function() {
-            alert("email: "+ $("#email").val() + "--------password: "+ $("#password").val());
+            alert("Your email is as cool as you: "+ $("#email").val());
             });
 
             });
@@ -53,10 +67,7 @@
         <form action="" method="">
             <label for "email"> email: </label>
             <input type="text" id="email" name="email" placeholder="venom@email.com" required>
-            <div>
-                <label for "password"> password: </label>
-                <input type="text" id="password" name="password" placeholder="venom" required>
-            </div>
+            
             <div>
                 <button id="submit-button" type="submit"> submit</button>
 
