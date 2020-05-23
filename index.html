@@ -17,13 +17,12 @@
         alert("Welcome to the Birthday Party for Bin Bin!")
     </script>
 
-    <h5 id="statement1" class="shout1"> Venom is the Best!!!</h1>
-    <h4 id="statement2" class="shout1"> Venom is the Best!!!</h2>
-    <h3 id="statement3" class="shout2"> BinBin is the Best!!!</h3>
-    <h2 id="statement4" class="shout2"> BinBin & Venom are the Best!!!</h2>
-    <h1 id="statementHB" class="shout3"> Happy 2020 Birthday to BinBin!!!</h1>
+    <h5 id="statementHB" class="shout1"> binbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbin </h1>
+    <h1 id="statementHB" class="shout3"> Happy 2020 Birthday to the best BinBin!!!</h1>
+    <h5 id="statementHB" class="shout1"> binbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbinbin </h1>
 
 
+    <hr width="100%">
     <hr width="100%">
     
     
@@ -31,20 +30,37 @@
     
     <p class="note-summon" id="note-summon">HERE I COME!!!!!</p>
     
+    <button class="venom-call" id="go-away" type="submit"> OK, It's enough, please go away.</button>
+    
     <script type="text/javascript">
         $(document).ready(function() {
         $("#venom-summon").hide(); 
         $("#note-summon").hide(); 
+        $("#go-away").hide();
         });
     </script>
     
-    <button id="summon" type="submit"> SUMMON THE VENOM to be your company!</button>
+    <button class="venom-call" id="summon" type="submit"> SUMMON THE VENOM to be your company!</button>
+    
 
     <script type="text/javascript">
         $(document).ready(function() {
         $("#summon").click(function() {
             $("#venom-summon").show();
             $("#note-summon").show();
+            $("#go-away").show();
+            $("#summon").hide();
+        });
+        });
+    </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#go-away").click(function() {
+            $("#venom-summon").hide();
+            $("#note-summon").hide();
+            $("#go-away").hide();
+            $("#summon").show();
         });
         });
     </script>

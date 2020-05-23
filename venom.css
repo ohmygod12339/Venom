@@ -3,7 +3,10 @@ body{
 }
 
 
-#summon{
+.venom-call{
+    border: 5px solid white;
+    color:darkslateblue;
+    font-size: 20px;
     display:block;
     margin:auto;
 }
@@ -36,42 +39,47 @@ div {
 }
 
 .shout3 {
-    background-color:brown;
+    background-color:#321E49;
     background-origin: content-box;
     font-family: fantasy;
+    text-align: center;
     color:cornsilk;
-    width:800px;
+    
+    width:100%;
     margin:auto;
 }
 
 .shout2 {
-    background-color:floralwhite;
+    background-color:#D57B75;
     font-family:fantasy;
+    text-align: center;
     color:darkslateblue;
-    width:800px;
+    width:100%;
     margin:auto;
 }
 
 .shout1 {
-    background-color:black;
+    background-color:#321E49;
     font-family:fantasy;
+    text-align: center;
     line-height:200%;
     color:azure;
-    width:800px;
+    width:100%;
     margin:auto;
 
 }
 
 .note{
     background-color:firebrick;
-    font-family: sans-serif;
+    font-family:cursive;
+    font-size:25px;
     text-align: center;
     color:blanchedalmond;
     
-    border: 3px solid black;
+    border: 3px solid #EBC4C4;
     border-radius:5px;
-    padding: 13px 13px 13px 20px;
-    width:800px;
+    padding: 13px 5px 13px 5px;
+    width:790px;
     margin: auto;
   
 }
